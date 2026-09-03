@@ -185,7 +185,7 @@ function Home() {
               type="button"
               onClick={() => {
                 setFilter(filterChips.includes(category) ? category : "All");
-                setSearch(filterChips.includes(category) ? "" : category.split(" ")[0]);
+                setSearch(filterChips.includes(category) ? "" : category.split(" ")[0]!);
                 document.getElementById("featured")?.scrollIntoView({ behavior: "smooth" });
               }}
               className="group relative overflow-hidden rounded-sm border border-border bg-card px-6 py-10 text-left transition-luxe hover:-translate-y-1 hover:border-gold hover:shadow-card"
