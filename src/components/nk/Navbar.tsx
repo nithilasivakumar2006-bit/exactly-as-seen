@@ -56,7 +56,7 @@ export function Navbar({ wishlistCount, cartCount, search, onSearchChange }: Pro
             <li key={link.href}>
               <a
                 href={link.href}
-                className="relative text-xs uppercase tracking-[0.22em] text-foreground transition-luxe after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-0 after:bg-gradient-gold after:transition-luxe hover:text-gold hover:after:w-full"
+                className="relative text-xs uppercase tracking-[0.22em] transition-luxe after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-0 after:bg-gradient-gold after:transition-luxe hover:text-gold hover:after:w-full"
               >
                 {link.label}
               </a>
