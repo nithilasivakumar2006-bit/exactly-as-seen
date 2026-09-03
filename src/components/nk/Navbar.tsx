@@ -41,9 +41,10 @@ export function Navbar({ wishlistCount, cartCount, search, onSearchChange }: Pro
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-luxe",
         scrolled
-          ? "border-b border-border bg-ivory/90 backdrop-blur-md"
-          : "border-b border-transparent bg-transparent",
+          ? "border-b border-border bg-ivory/90 text-foreground backdrop-blur-md"
+          : "border-b border-transparent bg-transparent text-charcoal-foreground",
       )}
+
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 lg:px-10">
         <a href="#home" className="flex flex-col leading-none">
